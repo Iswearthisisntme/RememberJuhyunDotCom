@@ -116,7 +116,7 @@ function App() {
                         </div>
                     ))}
                 </div>
-                <a href="/resume.pdf"  download="Juhyun_Kim_Resume.pdf" className={styles.downloadButton}> <button className="bg-blue-500 text-white py-2 px-4 rounded-md">
+                <a href="/Juhyun_Kim_Resume.pdf"  download="Juhyun_Kim_Resume.pdf" className={styles.downloadButton}> <button className="bg-blue-500 text-white py-2 px-4 rounded-md">
                     Download Resume
                 </button></a>
                 <input
