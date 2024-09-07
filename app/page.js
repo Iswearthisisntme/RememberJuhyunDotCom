@@ -116,7 +116,7 @@ function App() {
                         </div>
                     ))}
                 </div>
-                <a href="/resume.pdf" download className={styles.downloadButton}>Download Resume</a>
+                <a href="@/public/Juhyun%20Kim%20Resume.pdf" download className={styles.downloadButton}>Download Resume</a>
                 <input
                     id="skills"
                     type="text"
@@ -147,9 +147,9 @@ function App() {
                                 A Hack and Slash game made using Godot Game engine and C++
                                 using my own sprites
                             </p>
-                            <a href={"https://browser-game-two.vercel.app/"} >
+                            <a href={"https://drive.google.com/drive/folders/1G_3T5NUD6mYlmVYiX9zbQDImapYNo4Cx?usp=sharing"} >
                                 <div className={styles.projectLink}>
-                                    Live App
+                                    Download
                                 </div>
                             </a>
                         </div>
@@ -180,7 +180,7 @@ function App() {
                                 A 1 vs 1 fighting game made in Javascript that can be played
                                 through a browser. Has multiple characters, moveset and more.
                             </p>
-                            <a href={""} >
+                            <a href={"https://browser-game-two.vercel.app/"} >
                                 <div className={styles.projectLink}>
                                     Live App
                                 </div>
