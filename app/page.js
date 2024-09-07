@@ -116,7 +116,9 @@ function App() {
                         </div>
                     ))}
                 </div>
-                <a href="@/public/Juhyun%20Kim%20Resume.pdf" download className={styles.downloadButton}>Download Resume</a>
+                <a href="/resume.pdf"  download="Juhyun_Kim_Resume.pdf" className={styles.downloadButton}> <button className="bg-blue-500 text-white py-2 px-4 rounded-md">
+                    Download Resume
+                </button></a>
                 <input
                     id="skills"
                     type="text"
